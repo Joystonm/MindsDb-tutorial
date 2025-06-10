@@ -1,14 +1,11 @@
-# MindsDb
+# MindsDb tutorial
 
-Absolutely! Here’s a **Beginner-Friendly Tutorial** for installing **MindsDB natively (without Docker)** on **Windows**. It walks through every step clearly so that **anyone — even with no experience — can follow along and set up MindsDB successfully**. 🧠💻
 
----
-
-# 💡 MindsDB Native Python Installation on Windows (No Docker) — Step-by-Step Tutorial
+# MindsDB Native Python Installation on Windows (No Docker) — Step-by-Step Tutorial
 
 ---
 
-## 📌 What is MindsDB?
+## What is MindsDB?
 
 **MindsDB** is a tool that allows you to create and use machine learning models using **SQL-like syntax**. You can:
 
@@ -18,7 +15,7 @@ Absolutely! Here’s a **Beginner-Friendly Tutorial** for installing **MindsDB n
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 Before installing MindsDB, make sure your system has:
 
@@ -27,13 +24,12 @@ Before installing MindsDB, make sure your system has:
 | Python              | 3.8 to 3.11           |
 | pip                 | Installed with Python |
 | Git (Optional)      | For advanced use      |
-| Internet connection | Yes ✔️                |
 
 ---
 
-## 🪜 Step 1: Install Python on Windows
+## Step 1: Install Python on Windows
 
-1. Go to: 👉 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
+1. Go to: 👉 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Download Python 3.11.x or 3.10.x (Avoid 3.12+ for now)
 3. Run the installer:
 
@@ -42,7 +38,7 @@ Before installing MindsDB, make sure your system has:
 
 ---
 
-## 🧪 Step 2: Verify Installation
+## Step 2: Verify Installation
 
 Open **Command Prompt** or **PowerShell**, and type:
 
@@ -62,7 +58,7 @@ If you see an error, Python was not installed correctly or not added to PATH.
 
 ---
 
-## 🧹 Step 3: Create a Virtual Environment (Recommended)
+## Step 3: Create a Virtual Environment (Recommended)
 
 Virtual environments keep your projects clean and avoid version conflicts.
 
@@ -89,7 +85,7 @@ Once activated, your command prompt will look like:
 
 ---
 
-## 🔧 Step 4: Upgrade pip, setuptools, and wheel
+## Step 4: Upgrade pip, setuptools, and wheel
 
 This step ensures smooth installation.
 
@@ -99,7 +95,7 @@ python -m pip install --upgrade pip setuptools wheel
 
 ---
 
-## 📦 Step 5: Install MindsDB
+## Step 5: Install MindsDB
 
 Now install MindsDB using pip:
 
@@ -111,7 +107,7 @@ This may take a few minutes — it installs machine learning libraries in the ba
 
 ---
 
-## 🏁 Step 6: Run MindsDB
+## Step 6: Run MindsDB
 
 ⚠️ Important: On Windows, the `mindsdb` command might not work directly, so use this instead:
 
@@ -128,7 +124,7 @@ INFO    MindsDB Studio running on http://127.0.0.1:47335
 
 ---
 
-## 🌐 Step 7: Open MindsDB Studio in Browser
+## Step 7: Open MindsDB Studio in Browser
 
 Open your browser and go to:
 
@@ -136,7 +132,7 @@ Open your browser and go to:
 http://127.0.0.1:47335
 ```
 
-🎉 You’ll see the MindsDB interface where you can:
+You’ll see the MindsDB interface where you can:
 
 - Upload datasets
 - Create machine learning models
@@ -144,44 +140,9 @@ http://127.0.0.1:47335
 
 ---
 
-## 🧪 Step 8: Try a Simple Prediction Query
 
-Go to **SQL Editor** in MindsDB Studio and run this:
+## You're All Set!
 
-```sql
-CREATE PREDICTOR mindsdb.home_rent_model
-FROM files
-    (SELECT * FROM 'https://raw.githubusercontent.com/mindsdb/mindsdb/main/docs/examples/basic/home_rentals.csv')
-PREDICT rental_price;
-```
-
-It will train a model to predict rental prices from housing data!
+You now have **MindsDB fully running natively on Windows** — no Docker, no virtual machines, just clean Python. 
 
 ---
-
-## 🧠 Troubleshooting
-
-| Issue                      | Fix                                   |
-| -------------------------- | ------------------------------------- |
-| `'mindsdb' not recognized` | Use `python -m mindsdb`               |
-| Python command not working | Reinstall Python & add to PATH        |
-| Slow install or errors     | Ensure stable internet & upgrade pip  |
-| Port already in use        | Close other apps using 47334 or 47335 |
-
----
-
-## 🔚 You're All Set!
-
-You now have **MindsDB fully running natively on Windows** — no Docker, no virtual machines, just clean Python. 🎉
-
----
-
-## 💬 What’s Next?
-
-You can:
-
-- Connect MindsDB to MySQL or PostgreSQL
-- Use it with Pandas/Jupyter notebooks
-- Train custom ML models from your own CSV files
-
-Let me know if you want a follow-up tutorial on any of these! 😊
