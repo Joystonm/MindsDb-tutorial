@@ -1,6 +1,3 @@
-# MindsDb tutorial
-
-
 # MindsDB Native Python Installation on Windows (No Docker) — Step-by-Step Tutorial
 
 ---
