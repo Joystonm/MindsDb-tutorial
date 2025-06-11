@@ -16,15 +16,6 @@
 
 ---
 
-## Choose Your Installation Path
-
-| Use Case                                    | Recommended Setup                                                              |
-| ------------------------------------------- | ------------------------------------------------------------------------------ |
-| I want to try MindsDB quickly on Windows    | [Native Python Install (no Docker)](#install-mindsdb-on-windows---no-docker) |
-| I want to contribute to MindsDB development | [Install from Source](#install-mindsdb-from-source---for-development)    |
-
----
-
 ## Install MindsDB on Windows — No Docker
 
 This method is perfect if you're a beginner and want to use MindsDB locally without Docker.
