@@ -134,6 +134,7 @@ You’ll see the MindsDB interface where you can:
 - Upload datasets
 - Create machine learning models
 - Make predictions
+  
 ![MindsDb](https://github.com/user-attachments/assets/3ef27fa2-b634-491f-ab3e-87dd94db25ee)
 
 ---
