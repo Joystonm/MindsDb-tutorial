@@ -28,7 +28,6 @@ This method is perfect if you're a beginner and want to use MindsDB locally with
 | pip    | Comes with Python              |
 | Git    | (Optional) For advanced usage  |
 
----
 
 ### Step 1: Install Python
 
@@ -38,7 +37,6 @@ This method is perfect if you're a beginner and want to use MindsDB locally with
    * ✅ Check **"Add Python to PATH"**
    * Click **Install Now**
 
----
 
 ### Step 2: Verify Installation
 
@@ -47,7 +45,6 @@ python --version
 pip --version
 ```
 
----
 
 ### Step 3: Create and Activate Virtual Environment
 
@@ -64,7 +61,6 @@ You’ll see:
 (mindsdb_env) C:\Users\YourUsername\Documents\MindsDB>
 ```
 
----
 
 ### Step 4: Upgrade Tools and Install MindsDB
 
@@ -73,7 +69,6 @@ python -m pip install --upgrade pip setuptools wheel
 pip install mindsdb
 ```
 
----
 
 ### Step 5: Run MindsDB
 
@@ -96,7 +91,6 @@ Open your browser at: [http://127.0.0.1:47335](http://127.0.0.1:47335)
 
 If you're planning to **contribute to MindsDB**, install it from source with development tools.
 
----
 
 ### ⚙️ Developer Setup Requirements
 
@@ -104,7 +98,6 @@ If you're planning to **contribute to MindsDB**, install it from source with dev
 * Git
 * pip + virtualenv
 
----
 
 ### Step-by-Step:
 
@@ -150,7 +143,6 @@ If you're planning to **contribute to MindsDB**, install it from source with dev
    python -m mindsdb
    ```
 
----
 
 ### Advanced Options
 
@@ -173,7 +165,6 @@ If you're planning to **contribute to MindsDB**, install it from source with dev
   make run_mindsdb
   ```
 
----
 
 ## Install Additional Integrations
 
@@ -185,7 +176,6 @@ pip install .[handler_name]
 
 🔗 [List of all handlers](https://github.com/mindsdb/mindsdb/tree/main/mindsdb/integrations/handlers)
 
----
 
 ## What’s Next?
 
@@ -194,12 +184,10 @@ Now that you’ve installed MindsDB, try:
 * [`CREATE MODEL`](/sql/create/model) – to train models using SQL
 * [Use Cases](/use-cases/overview) – tutorials for LLMs, Time Series, Regression, etc.
 
----
 
 ## You're Ready!
 
 Whether you're building your first predictive model or contributing to MindsDB itself, you're now set up and ready to go. Happy hacking! 
 
----
 
 
